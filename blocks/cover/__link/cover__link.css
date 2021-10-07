@@ -1,11 +1,16 @@
 .cover__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 auto;
   width: 100%;
   height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
+  color: #fff;
+  text-decoration: none;
+  transition: opacity .7s ease;
   background-image: url('https://svetanti.github.io/russian-travel/images/cover/cover_bg.png');
   background-size: cover;
+  background-position: center;
   z-index: 4;
 }
 
@@ -23,5 +28,5 @@
 }
 
 .cover__link:hover::before {
-  opacity: .8;
+  opacity: .56;
 }

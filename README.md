@@ -1,23 +1,14 @@
-# Проект: Путешествие по России
+# Yandex Practicum sprint №3
+## _Educational project **"Russian-travel"**_
 
-### Обзор
-* Интро
-* Figma
-* Картинки
+### Layout of an adaptive single-page website, using the BEM methodology
 
-**Интро**
+### Tech
+the following technologies were used:
 
-Здесь будет проект о путешествии по России.
-В Фигме мы разместили макет, в котором видно, как проект должен выглядеть на самых распространённых разрешениях экранов.
-Этот проект сложнее предыдущих, постарайтесь уделить ему больше времени.
+- [Flexbox](https://developer.mozilla.org/ru/docs/Learn/CSS/CSS_layout/Flexbox) - layout using flexbox technology
+- [Grid Layout](https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout) - layout using grid technology
+- [Media queries](https://developer.mozilla.org/ru/docs/Web/CSS/Media_Queries) - adaptive layout using media queries
 
-**Figma**
-
-* [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
-
-**Картинки**
-
-Доставать картинки предстоит из Фигмы. Это расхожая практика, поэтому полезно потренироваться.
-Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
-
-Удачи!
+### Plans for further development:
+- Add more articles, interactive map

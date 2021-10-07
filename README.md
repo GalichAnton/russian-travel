@@ -2,7 +2,7 @@
 ## _Educational project **"Russian-travel"**_
 
 ### Layout of an adaptive single-page website, using the BEM methodology
-
+- [Russian-travel](https://galichanton.github.io/russian-travel/index.html)
 ### Tech
 the following technologies were used:
 

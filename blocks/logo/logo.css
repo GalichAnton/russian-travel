@@ -1,9 +1,9 @@
 .logo {
-	height: 52px;
+  height: 52px;
 }
 
 @media screen and (max-width: 320px) {
-	.logo {
-		height: 42px;
-	}
+  .logo {
+    height: 42px;
+  }
 }

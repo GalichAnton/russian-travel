@@ -25,7 +25,6 @@
 @media screen and (max-width: 1024px) {
   .photo-grid {
     max-width: 928px;
-    padding: 0 0px 92px 0px;
   }
 }
 
@@ -40,15 +39,15 @@
   .photo-grid {
     -ms-grid-columns: (minmax(352px, 1fr))[auto-fit];
     grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
-    max-width: 736px;
+    max-width: 720px;
     grid-gap: 16px;
-    padding-bottom: 88px;
+    padding: 0 0px 88px 0px;
   }
 }
 
 @media screen and (max-width: 740px) {
   .photo-grid {
-    max-width: 90%;
+    max-width: calc(90% + 16px);
     -ms-grid-columns: (minmax(250px, 1fr))[auto-fit];
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
@@ -56,6 +55,7 @@
 
 @media screen and (max-width: 475px) {
   .photo-grid {
+    max-width: 90%;
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }

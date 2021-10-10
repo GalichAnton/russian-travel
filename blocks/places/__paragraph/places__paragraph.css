@@ -7,7 +7,7 @@
 @media screen and (max-width: 575px) {
   .places__paragraph {
     max-width: 90%;
-    margin: 0 auto;
+    margin: 0 auto 25px;
   }
 }
 
@@ -21,8 +21,8 @@
   }
 }
 
-@media screen and (max-width: 575px) {
+/* @media screen and (max-width: 575px) {
   .places__paragraph:first-of-type {
     margin-bottom: 0;
   }
-}
+} */

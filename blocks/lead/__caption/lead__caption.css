@@ -5,20 +5,12 @@
   letter-spacing: 1.5px;
   text-transform: uppercase;
   justify-self: start;
-  width: 100%;
-  margin: 8px auto 0;
-}
-
-@media screen and (max-width: 768px) {
-  .lead__caption {
-    margin-left: 24px;
-    padding: 0;
-  }
+  margin: 8px 0 0 24px;
+  padding: 0;
 }
 
 @media screen and (max-width: 330px) {
   .lead__caption {
     margin-left: 16px;
-    padding: 0;
   }
 }
